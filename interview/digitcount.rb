@@ -1,6 +1,9 @@
+# Problem presented as:
 # 1131 => 211311
 # [2 1's][1 1's][1 3's][1 1's]
 # repeat
+#
+# RLE in other terms
 
 def digitcount(num)
   # Convert the number into an array, 1131 -> [1,1,3,1] so we can iterate through
