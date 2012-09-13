@@ -1,7 +1,7 @@
 def quicksort(array)
   return array if array.nil? || array.size <= 1
   pivot = array[0]
-  left, right = array[1..-1].partition { |i| i < pivot }
+  left, right = array[1..-1].partition { |k| k < pivot }
   quicksort(left) + [ pivot ] + quicksort(right)
 end
 
